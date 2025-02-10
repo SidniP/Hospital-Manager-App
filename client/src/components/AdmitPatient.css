@@ -1,0 +1,135 @@
+body {
+    background-color: #f8f9fa !important;
+    margin: 0 !important;
+    font-family: 'Arial', sans-serif !important;
+}
+
+.admit-patient-container {
+    max-width: 600px !important;
+    margin: 50px auto !important;
+    padding: 20px !important;
+    background: #ffffff !important;
+    border: 1px solid #dddddd !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) !important;
+    text-align: center !important;
+}
+
+nav {
+    display: flex !important;
+    align-items: center !important;
+    background-color: rgb(209, 208, 208) !important;
+    padding: 10px 20px !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) !important;
+}
+
+.nav-title {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    margin: 0 !important;
+    color: black !important;
+    text-align: center !important;
+    flex-grow: 1 !important;
+}
+
+.home-button {
+    background-color: white !important;
+    color: black !important;
+    border: 2px solid black !important;
+    box-shadow: 4px 4px 6px black !important;
+    padding: 6px 12px !important;
+    font-size: 12px !important;
+    font-weight: bold;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    appearance: none !important;
+    -webkit-appearance: none !important;
+}
+
+.home-button:hover {
+    background-color: #f0f0f0 !important;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.6) !important;
+}
+
+
+.admit-patient-form {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 10px !important;
+    margin-top: 20px !important;
+    text-align: center !important;
+}
+
+.form-group {
+    width: 100% !important;
+    text-align: center !important;
+}
+
+.admit-patient-form label {
+    font-size: 16px !important;
+    font-weight: bold !important;
+    display: block !important;
+    margin-bottom: 5px !important;
+}
+
+.admit-patient-form input[type="number"]{
+    width: 10% !important;
+    padding: 6px !important;
+    font-size: 14px !important;
+    border: 2px solid black !important;
+    box-shadow: none !important;
+    text-align: center !important;
+}
+.admit-patient-form input[type="text"] {
+    width: 40% !important;
+    padding: 6px !important;
+    font-size: 14px !important;
+    border: 2px solid black !important;
+    box-shadow: none !important;
+    text-align: center !important;
+}
+
+.admit-patient-form input:focus {
+    border-color: black !important;
+}
+
+.admit-patient-form textarea {
+    width: 90% !important;
+    padding: 10px !important;
+    font-size: 14px !important;
+    border: 2px solid black !important;
+    resize: none !important;
+    height: 100px !important;
+    text-align: center !important;
+}
+
+.admit-patient-form textarea:focus {
+    border-color: white !important;
+    box-shadow: black !important;
+}
+
+.admit-button {
+    background-color: white !important; 
+    color: black !important; 
+    border: 2px solid black !important; 
+    box-shadow: 4px 4px 6px black !important;
+    padding: 10px 15px !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    transition: all 0.3s ease !important; 
+    appearance: none !important; 
+    -webkit-appearance: none !important; 
+    -moz-appearance: none !important; 
+    outline: none !important; 
+}
+
+
+.error-message {
+    color: red !important;
+    font-size: 14px !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}

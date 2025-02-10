@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+
+.container.patient-update {
+    max-width: 600px; 
+    margin: 50px auto; 
+    padding: 20px; 
+    background: white; 
+    border: 1px solid #dddddd ;
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+
+.header-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: rgb(209, 208, 208); 
+    padding: 10px 20px; 
+    margin-bottom: 20px; 
+}
+
+
+.header-container h1 {
+    font-size: 20px; 
+    font-weight: bold; 
+    color: black; 
+    margin: 0; 
+}
+
+
+.button-common {
+    display: inline-block;
+    background-color: white; 
+    color: black; 
+    border: 2px solid black; 
+    box-shadow: 4px 4px 6px black; 
+    padding: 6px 12px; 
+    font-size: 12px;
+    font-weight: bold; 
+    cursor: pointer; 
+    transition: none; 
+}
+
+
+.button-common:hover {
+    background-color: white; 
+    color: black;
+    box-shadow: 4px 4px 6px black; 
+    border: 2px solid black;
+}
+
+.input-age {
+    width: 10% !important;
+    padding: 6px !important;
+    font-size: 14px !important;
+    border: 2px solid black !important;
+    box-shadow: none !important;
+    text-align: center !important;
+}
+label {
+    font-size: 14px; 
+    font-weight: bold; 
+    color: black; 
+    display: block; 
+}
+
+.input-name {
+    width: 40% !important;
+    padding: 6px !important;
+    font-size: 14px !important;
+    border: 2px solid black !important;
+    box-shadow: none !important;
+    text-align: center !important;
+}
+
+
+.input-symptoms {
+    width: 90% !important;
+    padding: 10px !important;
+    font-size: 14px !important;
+    border: 2px solid black !important;
+    resize: none !important;
+    height: 100px !important;
+}
+
+
+.input-age:focus,
+.input-name:focus,
+.input-symptoms:focus {
+    outline: none;
+    border-color: black; 
+}
+
+
+.button-common-update {
+    display: block; 
+    background-color: white; 
+    color: black;
+    border: 2px solid black; 
+    box-shadow: 4px 4px 6px black; 
+    padding: 6px 12px; 
+    font-size: 12px;
+    font-weight: bold; 
+    cursor: pointer; 
+    margin: 20px auto; 
+    transition: none; 
+}
+
+
+.button-common-update:hover {
+    background-color: white; 
+    color: black; 
+    box-shadow: 4px 4px 6px black; 
+    border: 2px solid black; 
+}
